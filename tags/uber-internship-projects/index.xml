@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>uber-internship-projects on Jonathan Ma</title>
+    <link>https://johnhorsema.github.io/tags/uber-internship-projects/</link>
+    <description>Recent content in uber-internship-projects on Jonathan Ma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Sep 2017 12:48:00 +0000</lastBuildDate><atom:link href="https://johnhorsema.github.io/tags/uber-internship-projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project - Membership Site</title>
+      <link>https://johnhorsema.github.io/post/project-membership-site/</link>
+      <pubDate>Sat, 02 Sep 2017 12:48:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/project-membership-site/</guid>
+      <description>Duration Elapsed (3 months - ongoing)
+Problem A complete redesign of the current Membership Site. From visual to content creation.
+GRAV vs Wordpress Inital decision to drop Wordpress and use GRAV as development framework. Since it is faster and has a smoother interface.
+I managed to convince the team to use it because of a lower learning curve and ability to edit with an Admin Panel.
+Log 28-30 June Side-tracked to build a landing page for a campaign within the site.</description>
+    </item>
+    
+    <item>
+      <title>Project - Automating No API Sites</title>
+      <link>https://johnhorsema.github.io/post/project-automating-no-api-sites/</link>
+      <pubDate>Thu, 22 Jun 2017 00:38:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/project-automating-no-api-sites/</guid>
+      <description>Duration 2.5 hours
+Problem To check whether a list of web domains are taken or not
+Log Following up a previous post ({% post_link trying-new-things %}), I can finally announce my success in automating the processing of using no api sites!
+Using CasperJS, I am able to handle the redirections initiated by the start url and fill a form and submit it to get the results.
+Initially, one has to navigate to the domain shop and input the string to check whether it is taken, one by one.</description>
+    </item>
+    
+    <item>
+      <title>Project - Matching Conditions</title>
+      <link>https://johnhorsema.github.io/post/project-matching-conditions/</link>
+      <pubDate>Wed, 21 Jun 2017 23:45:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/project-matching-conditions/</guid>
+      <description>Duration 2 hours
+Problem A fellow intern invited me to solve this problem.
+They need to find the difference between the actual and expected cost of an item, and if the difference is non-zero, they need to attribute it to a category.
+Log To illustrate, consider the following table.
+   A-&amp;gt;B B-&amp;gt;A B-&amp;gt;C C-&amp;gt;B C-&amp;gt;D D-&amp;gt;C Actual     30 0 0 8 10 0 48   0 0 8 0 10 10 18    The first 6 columns represents expected cost of the routes taken and the 7th is the actual cost of going through these routes.</description>
+    </item>
+    
+  </channel>
+</rss>

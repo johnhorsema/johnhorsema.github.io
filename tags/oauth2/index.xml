@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>oauth2 on Jonathan Ma</title>
+    <link>https://johnhorsema.github.io/tags/oauth2/</link>
+    <description>Recent content in oauth2 on Jonathan Ma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Sep 2017 12:48:00 +0000</lastBuildDate><atom:link href="https://johnhorsema.github.io/tags/oauth2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project - Membership Site</title>
+      <link>https://johnhorsema.github.io/post/project-membership-site/</link>
+      <pubDate>Sat, 02 Sep 2017 12:48:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/project-membership-site/</guid>
+      <description>Duration Elapsed (3 months - ongoing)
+Problem A complete redesign of the current Membership Site. From visual to content creation.
+GRAV vs Wordpress Inital decision to drop Wordpress and use GRAV as development framework. Since it is faster and has a smoother interface.
+I managed to convince the team to use it because of a lower learning curve and ability to edit with an Admin Panel.
+Log 28-30 June Side-tracked to build a landing page for a campaign within the site.</description>
+    </item>
+    
+  </channel>
+</rss>

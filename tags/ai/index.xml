@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ai on Jonathan Ma</title>
+    <link>https://johnhorsema.github.io/tags/ai/</link>
+    <description>Recent content in ai on Jonathan Ma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Sep 2017 15:20:00 +0000</lastBuildDate><atom:link href="https://johnhorsema.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chatbots Are Not For Everyone</title>
+      <link>https://johnhorsema.github.io/post/chatbots-are-not-for-everyone/</link>
+      <pubDate>Mon, 11 Sep 2017 15:20:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/chatbots-are-not-for-everyone/</guid>
+      <description>Why Chatbots provide a zero-knowledge interface to clients. They can just ask what they want and get a human-like reply, rather than bolts and buttons.
+Examples Several good examples of chatbots are: Cleverbot, Microsoft&amp;rsquo;s Zo and even Tencent&amp;rsquo;s Baby Q
+How to Build One? To build chatbots, you can take two approaches:
+ Build with an existing bot framework Build it from scratch  Examples for (1) would be Wit.ai, Api.</description>
+    </item>
+    
+  </channel>
+</rss>

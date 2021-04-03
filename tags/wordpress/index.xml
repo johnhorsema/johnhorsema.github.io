@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wordpress on Jonathan Ma</title>
+    <link>https://johnhorsema.github.io/tags/wordpress/</link>
+    <description>Recent content in wordpress on Jonathan Ma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Sep 2017 12:48:00 +0000</lastBuildDate><atom:link href="https://johnhorsema.github.io/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Move Wordpress To Subdirectory</title>
+      <link>https://johnhorsema.github.io/post/move-wordpress-to-subdirectory/</link>
+      <pubDate>Sat, 02 Sep 2017 12:48:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/move-wordpress-to-subdirectory/</guid>
+      <description> Change .htaccess in the subdirectory, i.e. example, where Wordpress now sits  # BEGIN WordPress &amp;lt;IfModule mod_rewrite.c&amp;gt; RewriteEngine On RewriteBase /example RewriteRule ^index\.php$ - [L] RewriteCond %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d RewriteRule . /example/index.php [L] &amp;lt;/IfModule&amp;gt; # END WordPress Edit wp-config.php and add the following lines  define(&#39;WP_HOME&#39;,&#39;https://domain.com/example&#39;); define(&#39;WP_SITEURL&#39;,&#39;https://domain.com/example&#39;); </description>
+    </item>
+    
+  </channel>
+</rss>

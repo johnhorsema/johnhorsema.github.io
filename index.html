@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+	<meta name="generator" content="Hugo 0.82.0" /><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='NodeJS | VueJS | Blockchain | Open Data'><title>Jonathan Ma</title>
+
+<link rel='canonical' href='https://johnhorsema.github.io/'>
+
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='Jonathan Ma'>
+<meta property='og:description' content='NodeJS | VueJS | Blockchain | Open Data'>
+<meta property='og:url' content='https://johnhorsema.github.io/'>
+<meta property='og:site_name' content='Jonathan Ma'>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2019-01-21T14:59:00&#43;00:00 '/>
+<meta name="twitter:title" content="Jonathan Ma">
+<meta name="twitter:description" content="NodeJS | VueJS | Blockchain | Open Data"><link rel="alternate" type="application/rss&#43;xml" href="https://johnhorsema.github.io/index.xml">
+    <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+
+    </head>
+    <body class="">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.body.dataset.scheme = 'dark';
+        } else {
+            document.body.dataset.scheme = 'light';
+        }
+    })();
+</script><div class="container main-container flex on-phone--column extended ">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu34451e677509d7ee68146aabb9a8ca41_68532_300x0_resize_box_2.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+                    <span class="emoji">🐴</span>
+                
+            </figure>
+        
+        <a class="logo" href="/">
+            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="567.000000pt" height="91.000000pt" viewBox="0 0 567.000000 91.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,91.000000) scale(0.100000,-0.100000)"
+fill="currentColor" stroke="none">
+<path d="M1120 899 c-19 -6 -116 -32 -215 -59 -99 -28 -272 -70 -385 -95 -293
+-65 -300 -67 -300 -86 0 -9 7 -22 15 -29 8 -7 15 -21 15 -31 0 -33 43 -32 241
+5 106 19 195 33 198 31 11 -12 12 -117 2 -166 -14 -62 -58 -166 -83 -193 -10
+-11 -18 -26 -18 -35 0 -8 -3 -12 -6 -8 -3 3 -21 -9 -39 -27 -54 -55 -118 -80
+-215 -84 -74 -3 -98 0 -181 27 -53 17 -102 38 -109 46 -7 8 -16 15 -21 15 -18
+0 -8 -23 28 -67 27 -33 58 -55 121 -84 244 -116 437 -56 551 169 l22 43 24
+-29 c30 -36 82 -62 122 -62 123 0 322 215 362 390 24 106 5 156 -73 190 l-41
+17 38 13 c42 16 48 40 22 90 -17 32 -21 33 -75 19z m-96 -171 c-6 -10 -4 -10
+7 0 7 6 18 12 24 12 13 0 -69 -75 -115 -105 -34 -22 -99 -87 -72 -70 11 6 12
+3 3 -14 -7 -11 -19 -21 -27 -21 -8 0 -13 -4 -9 -10 3 -5 -4 -19 -17 -32 -12
+-12 -23 -28 -23 -35 0 -7 -4 -13 -10 -13 -5 0 -15 41 -21 92 -7 51 -14 99 -16
+107 -2 9 17 19 57 30 33 9 67 21 75 26 8 5 31 10 49 11 19 0 37 6 39 12 2 6 9
+9 17 6 7 -3 16 -1 20 5 9 15 28 14 19 -1z m176 -51 c0 -96 -75 -244 -174 -343
+-70 -70 -129 -104 -181 -104 -30 0 -37 5 -46 27 -25 67 36 193 155 319 108
+116 147 144 203 144 l43 0 0 -43z"/>
+<path d="M5124 882 c-17 -15 -50 -52 -72 -83 -23 -31 -53 -66 -67 -77 -15 -12
+-39 -39 -55 -60 -15 -22 -61 -73 -102 -113 -40 -41 -96 -101 -124 -134 -29
+-33 -54 -58 -57 -55 -3 3 3 69 13 147 10 77 20 182 21 232 3 84 1 92 -21 116
+-22 24 -25 24 -31 8 -4 -10 -8 -12 -8 -5 -1 7 -5 11 -10 8 -4 -3 -6 -16 -4
+-30 4 -18 -2 -29 -26 -47 -18 -13 -29 -29 -26 -36 2 -8 -2 -16 -10 -19 -16 -6
+-58 -72 -58 -91 0 -7 -4 -13 -8 -13 -4 0 -29 -35 -55 -77 -27 -43 -80 -122
+-118 -176 -39 -54 -81 -116 -94 -139 -12 -22 -31 -52 -42 -66 -25 -31 -26 -59
+-1 -67 11 -3 22 -12 25 -20 9 -24 33 -17 44 13 5 16 74 129 153 253 78 123
+157 249 176 279 28 46 39 52 35 19 -1 -4 -11 -84 -23 -178 l-22 -171 24 -26
+c36 -38 54 -46 82 -33 13 6 97 96 187 200 90 104 165 187 167 185 2 -2 -16
+-32 -40 -67 -25 -35 -52 -80 -62 -99 -10 -19 -39 -66 -64 -105 -64 -98 -66
+-100 -112 -192 -36 -72 -40 -85 -28 -100 10 -11 10 -14 2 -9 -26 15 -11 -10
+19 -34 25 -20 32 -22 36 -10 9 27 90 178 126 234 34 53 37 55 61 44 29 -13 56
+3 171 99 56 46 86 64 135 77 35 10 69 23 76 28 7 5 21 8 32 6 18 -3 15 -12
+-31 -123 -62 -148 -67 -170 -40 -184 19 -10 24 -3 65 97 25 59 57 138 72 175
+27 66 58 97 98 97 8 0 41 12 73 27 71 33 52 41 -50 20 -61 -12 -66 -12 -61 2
+4 9 16 44 28 78 21 60 21 62 3 82 -11 12 -25 21 -32 21 -14 0 -136 -104 -259
+-222 -64 -62 -93 -82 -140 -98 -33 -11 -62 -19 -66 -18 -4 2 18 46 48 98 31
+52 80 142 110 200 l54 105 -31 28 c-38 33 -47 33 -86 -1z m320 -244 c-13 -34
+-24 -63 -24 -65 0 -2 -46 -15 -105 -29 l-30 -7 20 23 c22 25 153 140 160 140
+2 0 -7 -28 -21 -62z m-399 -249 c-9 -14 -86 -69 -96 -69 -21 0 33 66 58 71 42
+10 45 10 38 -2z"/>
+<path d="M3120 764 c0 -21 -12 -57 -27 -85 -25 -44 -36 -52 -126 -94 -54 -26
+-100 -45 -102 -43 -1 1 15 34 37 72 41 73 43 99 11 131 -15 16 -18 15 -37 -18
+-22 -38 -25 -42 -108 -176 l-53 -85 -125 -68 c-69 -37 -126 -71 -128 -76 -1
+-4 11 -20 27 -36 l29 -28 42 22 c23 12 44 19 47 16 3 -3 -5 -19 -17 -36 l-22
+-31 22 -24 c35 -38 64 -12 151 134 25 41 42 58 78 74 25 11 49 24 52 29 3 5
+10 10 15 10 25 2 44 11 44 21 0 6 3 7 7 4 3 -4 12 -2 19 4 32 26 16 -15 -44
+-120 l-66 -113 23 -19 c13 -11 26 -19 30 -19 8 0 106 144 115 170 5 11 21 15
+55 15 48 0 49 -1 33 -19 -9 -10 -37 -30 -61 -44 -40 -23 -42 -26 -25 -39 10
+-7 23 -13 29 -13 15 0 84 49 158 113 40 34 76 55 120 68 34 11 72 24 83 30 12
+6 28 9 37 7 12 -2 6 -26 -35 -123 -62 -148 -67 -170 -40 -184 19 -10 24 -3 65
+97 25 59 57 138 72 175 27 66 58 97 98 97 8 0 41 12 73 27 71 33 52 41 -50 20
+-61 -12 -66 -12 -61 2 4 9 16 44 28 78 21 60 21 62 3 82 -11 12 -25 21 -32 21
+-14 0 -136 -104 -259 -222 -71 -68 -91 -81 -155 -103 -40 -14 -79 -25 -86 -25
+-13 0 42 105 74 143 8 9 11 17 6 17 -5 1 4 8 19 16 16 8 25 20 21 26 -4 6 -3
+8 4 5 17 -11 38 2 39 24 2 18 -3 20 -28 17 -24 -4 -29 -1 -29 16 0 30 -22 85
+-37 90 -9 4 -13 -5 -13 -30z m394 -126 c-13 -34 -24 -63 -24 -65 0 -2 -46 -15
+-105 -29 l-30 -7 20 23 c22 25 153 140 160 140 2 0 -7 -28 -21 -62z"/>
+<path d="M1408 719 c2 -40 0 -74 -5 -78 -16 -11 -245 -361 -257 -392 -10 -27
+-8 -32 14 -49 33 -26 33 -25 45 13 11 32 195 321 201 314 2 -2 6 -28 9 -58 10
+-91 24 -182 35 -220 9 -33 45 -69 69 -69 5 0 28 45 52 101 24 56 48 103 54
+104 5 2 27 6 49 9 38 5 38 5 20 -15 -11 -12 -39 -33 -63 -47 -40 -23 -42 -26
+-25 -39 10 -7 23 -13 29 -13 15 0 84 49 158 113 40 34 76 55 120 68 34 11 72
+24 83 30 12 6 28 9 37 7 12 -2 6 -26 -35 -123 -62 -148 -67 -170 -40 -184 19
+-10 24 -3 65 97 25 59 57 138 72 175 23 56 34 71 59 82 66 27 102 38 136 40
+19 1 84 16 144 33 61 17 112 30 114 27 2 -2 -24 -38 -59 -80 -138 -165 -248
+-316 -249 -341 0 -5 6 -18 13 -28 12 -17 18 -12 69 60 30 44 97 131 148 194
+50 63 106 139 122 168 17 30 36 55 42 57 6 1 34 8 61 14 104 25 125 32 122 44
+-1 7 8 11 25 10 30 -2 44 20 23 37 -11 9 -55 1 -197 -34 -287 -73 -408 -108
+-408 -120 0 -7 -25 -16 -55 -22 -49 -9 -55 -8 -50 6 4 8 16 43 28 77 21 60 21
+62 3 82 -11 12 -25 21 -32 21 -14 0 -136 -104 -260 -223 -71 -68 -90 -80 -158
+-103 -42 -15 -80 -24 -83 -21 -3 4 27 64 66 135 39 72 71 134 71 140 0 17 -24
+20 -46 5 -26 -17 -90 -124 -182 -306 l-69 -138 -7 53 c-3 29 -9 108 -13 175
+-6 118 -5 124 21 182 14 32 24 66 20 74 -8 22 -34 29 -40 12 -5 -13 -9 -13
+-27 0 -37 26 -42 19 -39 -56z m696 -81 c-13 -34 -24 -63 -24 -65 0 -2 -46 -15
+-105 -29 l-30 -7 20 23 c22 25 153 140 160 140 2 0 -7 -28 -21 -62z"/>
+<path d="M3808 719 c2 -40 0 -74 -5 -78 -16 -11 -245 -361 -257 -392 -10 -27
+-8 -32 14 -49 33 -26 33 -25 45 13 11 32 195 321 201 314 2 -2 6 -28 9 -58 10
+-91 24 -182 35 -220 9 -33 45 -69 68 -69 5 0 32 53 61 118 28 64 87 183 131
+264 44 81 80 151 80 157 0 16 -24 19 -46 4 -26 -17 -90 -124 -182 -306 l-69
+-138 -7 53 c-3 29 -9 108 -13 175 -6 118 -5 124 21 182 14 32 24 66 20 74 -8
+22 -34 29 -40 12 -5 -13 -9 -13 -27 0 -37 26 -42 19 -39 -56z"/>
+</g>
+</svg></a>
+        <div class="social">
+            <a href="https://github.com/johnhorsema" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
+</svg>
+            </a>
+            <a href="https://medium.com/@johnhorsema" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-medium" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+  <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+  <path d="M8 9h1l3 3l3 -3h1"></path>
+  <line x1="8" y1="15" x2="10" y2="15"></line>
+  <line x1="14" y1="15" x2="16" y2="15"></line>
+  <line x1="9" y1="9" x2="9" y2="15"></line>
+  <line x1="15" y1="9" x2="15" y2="15"></line>
+</svg>
+            </a>
+        </div>
+        <h2 class="site-description">NodeJS | VueJS | Blockchain | Open Data</h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li  class='current' >
+            <a href='/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about-me/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About Me</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archive/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archive</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>Dark Mode</span>
+            </li>
+        
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    
+    
+    
+    
+
+    <section class="article-list">
+        
+            
+<article class="">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/thoughts/" style="background-color: #2a9d8f; color: #fff;">
+                Thoughts
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/post/has-hong-kong-opened-its-data/">Has Hong Kong Opened Its Data?</a>
+    </h2><footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Jan 21, 2019</time>
+        &nbsp;&middot;&nbsp;
+        <div>1min read</div>
+    </footer>
+    <h3 class="article-subtitle">
+        OGCIO declared 80&#43; departments have released 650&#43; datasets. However, the progress of release are scattered across those 80&#43; departmental websites.
+    </h3>
+    
+</div>
+</header>
+</article>
+        
+            
+<article class="">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/thoughts/" style="background-color: #2a9d8f; color: #fff;">
+                Thoughts
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/post/77-failed-startup-post-mortems/">77 Failed Startup Post-Mortems</a>
+    </h2><footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Oct 06, 2017</time>
+        &nbsp;&middot;&nbsp;
+        <div>666min read</div>
+    </footer>
+    <h3 class="article-subtitle">
+        77 assorted essays and post-mortems from the founders or investors of failed startups, collected from around the web.
+    </h3>
+    
+</div>
+</header>
+</article>
+        
+            
+<article class="">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/thoughts/" style="background-color: #2a9d8f; color: #fff;">
+                Thoughts
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/post/chatbots-are-not-for-everyone/">Chatbots Are Not For Everyone</a>
+    </h2><footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Sep 11, 2017</time>
+        &nbsp;&middot;&nbsp;
+        <div>2min read</div>
+    </footer>
+    <h3 class="article-subtitle">
+        Do not build a chatbot because you want to build one. Build a chatbot because you want to engage customers.
+    </h3>
+    
+</div>
+</header>
+</article>
+        
+            
+<article class="">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/code/" style="background-color: #0177b8; color: #fff;">
+                Code
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/post/force-ssl-on-grav/">Force SSL On Grav</a>
+    </h2><footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Sep 02, 2017</time>
+        &nbsp;&middot;&nbsp;
+        <div>1min read</div>
+    </footer>
+</div>
+</header>
+</article>
+        
+            
+<article class="">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/code/" style="background-color: #0177b8; color: #fff;">
+                Code
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/post/move-wordpress-to-subdirectory/">Move Wordpress To Subdirectory</a>
+    </h2><footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Sep 02, 2017</time>
+        &nbsp;&middot;&nbsp;
+        <div>1min read</div>
+    </footer>
+</div>
+</header>
+</article>
+        
+            
+<article class="">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/code/" style="background-color: #0177b8; color: #fff;">
+                Code
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/post/project-membership-site/">Project - Membership Site</a>
+    </h2><footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Sep 02, 2017</time>
+        &nbsp;&middot;&nbsp;
+        <div>2min read</div>
+    </footer>
+</div>
+</header>
+</article>
+        
+            
+<article class="">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/thoughts/" style="background-color: #2a9d8f; color: #fff;">
+                Thoughts
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/post/get-out-of-the-comfort-zone/">Get Out of the Comfort Zone</a>
+    </h2><footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Aug 01, 2017</time>
+        &nbsp;&middot;&nbsp;
+        <div>3min read</div>
+    </footer>
+</div>
+</header>
+</article>
+        
+            
+<article class="">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/code/" style="background-color: #0177b8; color: #fff;">
+                Code
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/post/project-automating-no-api-sites/">Project - Automating No API Sites</a>
+    </h2><footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Jun 22, 2017</time>
+        &nbsp;&middot;&nbsp;
+        <div>1min read</div>
+    </footer>
+</div>
+</header>
+</article>
+        
+    </section>
+    <nav class='pagination'>
+        
+        
+
+        
+            
+                <span class='page-link current'>1</span>
+                
+            
+            
+                    <a class='page-link' href='/page/2/'>2</a>
+                
+            
+            
+                    <a class='page-link' href='/page/3/'>3</a>
+                
+            
+    </nav>
+
+<footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        2021 Jonathan Ma
+    </section>
+    
+    <section class="powerby">
+        Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
+    </section>
+</footer>
+            </main>
+    
+    
+    <aside class="sidebar right-sidebar sticky">
+        
+            <form action="/search/" class="search-form widget" >
+        <p>
+            <label>Search</label>
+            <input name="keyword" required placeholder="Type something..." />
+        
+            <button title="Search">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+            </button>
+        </p>
+    </form>
+        
+            <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Archives</h2>
+
+        
+        
+        
+        
+        
+        <div class="widget-archive--list">
+            <div class="archives-year">
+                    <a href="/archive/#2019">
+                        
+                            <span class="year">2019</span>
+                            <span class="count">1</span>
+                        
+                    </a> 
+                </div>
+            <div class="archives-year">
+                    <a href="/archive/#2017">
+                        
+                            <span class="year">2017</span>
+                            <span class="count">13</span>
+                        
+                    </a> 
+                </div>
+            <div class="archives-year">
+                    <a href="/archive/#2016">
+                        
+                            <span class="year">2016</span>
+                            <span class="count">5</span>
+                        
+                    </a> 
+                </div>
+            
+        </div>
+    </section>
+        
+            <section class="widget tagCloud">
+    <div class="widget-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+    </div>
+    <h2 class="widget-title section-title">Tags</h2>
+
+    <div class="tagCloud-tags">
+        
+            <a href="/tags/summer-2017/" class="font_size_8">
+                summer-2017
+            </a>
+        
+            <a href="/tags/uber-internship/" class="font_size_7">
+                uber-internship
+            </a>
+        
+            <a href="/tags/shanghai-exchange-2016/" class="font_size_4">
+                shanghai-exchange-2016
+            </a>
+        
+            <a href="/tags/uber-internship-projects/" class="font_size_3">
+                uber-internship-projects
+            </a>
+        
+            <a href="/tags/grav/" class="font_size_2">
+                grav
+            </a>
+        
+            <a href="/tags/sql/" class="font_size_2">
+                sql
+            </a>
+        
+            <a href="/tags/ai/" class="font_size_1">
+                ai
+            </a>
+        
+            <a href="/tags/chatbots/" class="font_size_1">
+                chatbots
+            </a>
+        
+            <a href="/tags/googleanalytics/" class="font_size_1">
+                googleanalytics
+            </a>
+        
+            <a href="/tags/hackathon/" class="font_size_1">
+                hackathon
+            </a>
+        
+    </div>
+</section>
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

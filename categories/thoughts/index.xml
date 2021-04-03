@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thoughts on Jonathan Ma</title>
+    <link>https://johnhorsema.github.io/categories/thoughts/</link>
+    <description>Recent content in Thoughts on Jonathan Ma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jan 2019 14:59:00 +0000</lastBuildDate><atom:link href="https://johnhorsema.github.io/categories/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Has Hong Kong Opened Its Data?</title>
+      <link>https://johnhorsema.github.io/post/has-hong-kong-opened-its-data/</link>
+      <pubDate>Mon, 21 Jan 2019 14:59:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/has-hong-kong-opened-its-data/</guid>
+      <description>In January 2019, the Hong Kong Government&amp;rsquo;s OGCIO (Information Office) declared 80+ departments have released 650+ datasets. However, the progress of release are scattered across those 80+ departmental websites. Meaning that, in order to obtain the full progress of Open Data in the government, one has to visit and download 80+ PDFs individually. [1]
+In light of the situation, I have created a curated list on 開放數據 Open Data in Hong Kong which will be updated over time.</description>
+    </item>
+    
+    <item>
+      <title>77 Failed Startup Post-Mortems</title>
+      <link>https://johnhorsema.github.io/post/77-failed-startup-post-mortems/</link>
+      <pubDate>Fri, 06 Oct 2017 14:49:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/77-failed-startup-post-mortems/</guid>
+      <description>Discover the reasons behind startup failure, from the founders themselves.
+ (Source)
+All stories are attributed with their original source.
+This book is not intended to be republished for any kind of financial gain or sold for profit, all articles remain the property of their respective writers/owners/sites.
+I have merely packaged this information for my own (and your) reading convenience, so we might read through these amazing stories at our leisure on our Kindles, phone or ipads or whatever.</description>
+    </item>
+    
+    <item>
+      <title>Chatbots Are Not For Everyone</title>
+      <link>https://johnhorsema.github.io/post/chatbots-are-not-for-everyone/</link>
+      <pubDate>Mon, 11 Sep 2017 15:20:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/chatbots-are-not-for-everyone/</guid>
+      <description>Why Chatbots provide a zero-knowledge interface to clients. They can just ask what they want and get a human-like reply, rather than bolts and buttons.
+Examples Several good examples of chatbots are: Cleverbot, Microsoft&amp;rsquo;s Zo and even Tencent&amp;rsquo;s Baby Q
+How to Build One? To build chatbots, you can take two approaches:
+ Build with an existing bot framework Build it from scratch  Examples for (1) would be Wit.ai, Api.</description>
+    </item>
+    
+    <item>
+      <title>Get Out of the Comfort Zone</title>
+      <link>https://johnhorsema.github.io/post/get-out-of-the-comfort-zone/</link>
+      <pubDate>Tue, 01 Aug 2017 22:22:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/get-out-of-the-comfort-zone/</guid>
+      <description>On April 22, I joined hackUST 2017, a hackathon organized by HKUST Entrepreneurship Center. For those who are still wondering: A hackathon is an event where groups of designers, idea-generators, technology experts get together to solve a problem under 24 or 36 hours, backed by technology and business ideas.
+ My team won the Champion by developing a prototype app under 24 hours and pitching it in front of 14 judges in 3 minutes</description>
+    </item>
+    
+    <item>
+      <title>Handling Priorities</title>
+      <link>https://johnhorsema.github.io/post/handling-priorities/</link>
+      <pubDate>Tue, 20 Jun 2017 20:53:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/handling-priorities/</guid>
+      <description>It has been approximately three weeks since the internship started. Today we get to move to the original office and it feels so much more at home. It does make you feel more productive when there are unlimited snacks and drinks in the pantry :P
+Anayways, in this post I will cover my thoughts on handling priorities. It has dawned to me that priorities should be set by yourself. Not others.</description>
+    </item>
+    
+    <item>
+      <title>Trying New Things</title>
+      <link>https://johnhorsema.github.io/post/trying-new-things/</link>
+      <pubDate>Thu, 15 Jun 2017 22:46:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/trying-new-things/</guid>
+      <description>What to do when you need data from a website but it does not have an API?
+An Application Programming Interface provides a set of definitions for interacting with data on a server.
+For sites without API, the only way is to visit it through a browser and scrape the data manually. Doing it by hand is indeed repetitive. So there are solutions that utilize a command-based browser (a browser that can be interfaced from the console) to automatically navigate a website and scrape data from it.</description>
+    </item>
+    
+    <item>
+      <title>On Track?</title>
+      <link>https://johnhorsema.github.io/post/on-track/</link>
+      <pubDate>Tue, 06 Jun 2017 22:50:45 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/on-track/</guid>
+      <description>Last 2 days make me finally feel like an intern, because we are finally given some data to play with! It is my first time to get something done under the assumption that I do not fully know what to do with it! There are just a few things I have in my pocket:
+ Python (for outputting some statistics) Tensorflow (for neural networks) Javascript (for the frontend data display)  I did plan on using some machine learning techniques on the data since the goal for us is to detect fraud in the data, kind of like email spam filter to detect spam and ham (non-spam) emails.</description>
+    </item>
+    
+    <item>
+      <title>Onboarding</title>
+      <link>https://johnhorsema.github.io/post/onboarding/</link>
+      <pubDate>Wed, 31 May 2017 20:50:20 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/onboarding/</guid>
+      <description>I decided to stay amidst the recent events. First day at work wasn&amp;rsquo;t as hectic as expected. In fact, it&amp;rsquo;s laid back and everyone are friendly and interesting. One intern studies UI/UX, which is rare in Hong Kong. I had very nice conversations with him. Hope I could learn a thing or two with him during my time here.
+So after today, I decided to build one of my own marketing compaign sites: a comment board with real-time count.</description>
+    </item>
+    
+  </channel>
+</rss>

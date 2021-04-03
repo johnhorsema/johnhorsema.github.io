@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>random on Jonathan Ma</title>
+    <link>https://johnhorsema.github.io/tags/random/</link>
+    <description>Recent content in random on Jonathan Ma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Feb 2016 20:46:25 +0000</lastBuildDate><atom:link href="https://johnhorsema.github.io/tags/random/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Randomness generation</title>
+      <link>https://johnhorsema.github.io/post/randomness-generation/</link>
+      <pubDate>Wed, 03 Feb 2016 20:46:25 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/randomness-generation/</guid>
+      <description>While working on a prototype of a web app, I needed to generate random boolean (true-or-false) values.
+At first, I tried this:
+var x = Math.random()&amp;gt;0.5; Get this into a 2D array:
+var array = []; var 2DArray = []; for(var i=0; i&amp;lt;10; i++) { array.push(Math.random()&amp;gt;0.5); } for(var i=0; i&amp;lt;10; i++) { 2Darray.push(array); array[i] = Math.random()&amp;gt;0.5; } The above ended up in 10 identical subarrays in the 2D array. Not what I wanted.</description>
+    </item>
+    
+  </channel>
+</rss>

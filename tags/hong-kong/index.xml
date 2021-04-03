@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hong-kong on Jonathan Ma</title>
+    <link>https://johnhorsema.github.io/tags/hong-kong/</link>
+    <description>Recent content in hong-kong on Jonathan Ma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jan 2019 14:59:00 +0000</lastBuildDate><atom:link href="https://johnhorsema.github.io/tags/hong-kong/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Has Hong Kong Opened Its Data?</title>
+      <link>https://johnhorsema.github.io/post/has-hong-kong-opened-its-data/</link>
+      <pubDate>Mon, 21 Jan 2019 14:59:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/has-hong-kong-opened-its-data/</guid>
+      <description>In January 2019, the Hong Kong Government&amp;rsquo;s OGCIO (Information Office) declared 80+ departments have released 650+ datasets. However, the progress of release are scattered across those 80+ departmental websites. Meaning that, in order to obtain the full progress of Open Data in the government, one has to visit and download 80+ PDFs individually. [1]
+In light of the situation, I have created a curated list on 開放數據 Open Data in Hong Kong which will be updated over time.</description>
+    </item>
+    
+  </channel>
+</rss>

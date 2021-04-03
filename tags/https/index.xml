@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>https on Jonathan Ma</title>
+    <link>https://johnhorsema.github.io/tags/https/</link>
+    <description>Recent content in https on Jonathan Ma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Sep 2017 12:48:00 +0000</lastBuildDate><atom:link href="https://johnhorsema.github.io/tags/https/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Force SSL On Grav</title>
+      <link>https://johnhorsema.github.io/post/force-ssl-on-grav/</link>
+      <pubDate>Sat, 02 Sep 2017 12:48:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/force-ssl-on-grav/</guid>
+      <description> Force SSL setting in system.yaml Edit .htaccess. Add the following lines after RewriteEngine On  RewriteCond %{HTTP:X-Forwarded-Proto} https RewriteRule .* - [E=HTTPS:on] </description>
+    </item>
+    
+  </channel>
+</rss>

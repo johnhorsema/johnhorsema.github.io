@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Jonathan Ma</title>
+    <link>https://johnhorsema.github.io/page/</link>
+    <description>Recent content in Pages on Jonathan Ma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://johnhorsema.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://johnhorsema.github.io/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/about-me/</guid>
+      <description>Software Engineer working in the financial services industry. Skilled in NodeJS, Vue, React, MySQL and process automation.
+Leaving bits and pieces of my thoughts on tech, design, startups, productivity and life hacks.
+ CCMF 100K grant recepient hackUST 2017 winner BEng in Computer Science from HKUST.  </description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>https://johnhorsema.github.io/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/archive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://johnhorsema.github.io/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/search/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

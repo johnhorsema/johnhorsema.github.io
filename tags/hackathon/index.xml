@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hackathon on Jonathan Ma</title>
+    <link>https://johnhorsema.github.io/tags/hackathon/</link>
+    <description>Recent content in hackathon on Jonathan Ma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Aug 2017 22:22:00 +0000</lastBuildDate><atom:link href="https://johnhorsema.github.io/tags/hackathon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get Out of the Comfort Zone</title>
+      <link>https://johnhorsema.github.io/post/get-out-of-the-comfort-zone/</link>
+      <pubDate>Tue, 01 Aug 2017 22:22:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/get-out-of-the-comfort-zone/</guid>
+      <description>On April 22, I joined hackUST 2017, a hackathon organized by HKUST Entrepreneurship Center. For those who are still wondering: A hackathon is an event where groups of designers, idea-generators, technology experts get together to solve a problem under 24 or 36 hours, backed by technology and business ideas.
+ My team won the Champion by developing a prototype app under 24 hours and pitching it in front of 14 judges in 3 minutes</description>
+    </item>
+    
+  </channel>
+</rss>

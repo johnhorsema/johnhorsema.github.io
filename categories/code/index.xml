@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on Jonathan Ma</title>
+    <link>https://johnhorsema.github.io/categories/code/</link>
+    <description>Recent content in Code on Jonathan Ma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Sep 2017 12:48:00 +0000</lastBuildDate><atom:link href="https://johnhorsema.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Force SSL On Grav</title>
+      <link>https://johnhorsema.github.io/post/force-ssl-on-grav/</link>
+      <pubDate>Sat, 02 Sep 2017 12:48:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/force-ssl-on-grav/</guid>
+      <description> Force SSL setting in system.yaml Edit .htaccess. Add the following lines after RewriteEngine On  RewriteCond %{HTTP:X-Forwarded-Proto} https RewriteRule .* - [E=HTTPS:on] </description>
+    </item>
+    
+    <item>
+      <title>Move Wordpress To Subdirectory</title>
+      <link>https://johnhorsema.github.io/post/move-wordpress-to-subdirectory/</link>
+      <pubDate>Sat, 02 Sep 2017 12:48:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/move-wordpress-to-subdirectory/</guid>
+      <description> Change .htaccess in the subdirectory, i.e. example, where Wordpress now sits  # BEGIN WordPress &amp;lt;IfModule mod_rewrite.c&amp;gt; RewriteEngine On RewriteBase /example RewriteRule ^index\.php$ - [L] RewriteCond %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d RewriteRule . /example/index.php [L] &amp;lt;/IfModule&amp;gt; # END WordPress Edit wp-config.php and add the following lines  define(&#39;WP_HOME&#39;,&#39;https://domain.com/example&#39;); define(&#39;WP_SITEURL&#39;,&#39;https://domain.com/example&#39;); </description>
+    </item>
+    
+    <item>
+      <title>Project - Membership Site</title>
+      <link>https://johnhorsema.github.io/post/project-membership-site/</link>
+      <pubDate>Sat, 02 Sep 2017 12:48:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/project-membership-site/</guid>
+      <description>Duration Elapsed (3 months - ongoing)
+Problem A complete redesign of the current Membership Site. From visual to content creation.
+GRAV vs Wordpress Inital decision to drop Wordpress and use GRAV as development framework. Since it is faster and has a smoother interface.
+I managed to convince the team to use it because of a lower learning curve and ability to edit with an Admin Panel.
+Log 28-30 June Side-tracked to build a landing page for a campaign within the site.</description>
+    </item>
+    
+    <item>
+      <title>Project - Automating No API Sites</title>
+      <link>https://johnhorsema.github.io/post/project-automating-no-api-sites/</link>
+      <pubDate>Thu, 22 Jun 2017 00:38:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/project-automating-no-api-sites/</guid>
+      <description>Duration 2.5 hours
+Problem To check whether a list of web domains are taken or not
+Log Following up a previous post ({% post_link trying-new-things %}), I can finally announce my success in automating the processing of using no api sites!
+Using CasperJS, I am able to handle the redirections initiated by the start url and fill a form and submit it to get the results.
+Initially, one has to navigate to the domain shop and input the string to check whether it is taken, one by one.</description>
+    </item>
+    
+    <item>
+      <title>Project - Matching Conditions</title>
+      <link>https://johnhorsema.github.io/post/project-matching-conditions/</link>
+      <pubDate>Wed, 21 Jun 2017 23:45:00 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/project-matching-conditions/</guid>
+      <description>Duration 2 hours
+Problem A fellow intern invited me to solve this problem.
+They need to find the difference between the actual and expected cost of an item, and if the difference is non-zero, they need to attribute it to a category.
+Log To illustrate, consider the following table.
+   A-&amp;gt;B B-&amp;gt;A B-&amp;gt;C C-&amp;gt;B C-&amp;gt;D D-&amp;gt;C Actual     30 0 0 8 10 0 48   0 0 8 0 10 10 18    The first 6 columns represents expected cost of the routes taken and the 7th is the actual cost of going through these routes.</description>
+    </item>
+    
+    <item>
+      <title>Solving String Similarity</title>
+      <link>https://johnhorsema.github.io/post/solving-string-similarity/</link>
+      <pubDate>Thu, 08 Jun 2017 23:47:33 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/solving-string-similarity/</guid>
+      <description>Problem The main focus today was to identify the similarity between two strings and derive the relevant records from a query.
+To better illustrate this, let&amp;rsquo;s look at a sample table:
+id string mjZThqXnp7 QB1934 odGf0DZuUR JU9910 jemvgDUw6T UJ991 xkVGZbpG05 DF987 MtaNYMMgkV FL9111 jqZCZI0Fdn AM9114 xRNLSPEdAY AM914 yMDC1QNNMc P1N9 YAmabwCWla JU990 Tsoc1lqG6I Q1934B If we are using JU991 as input, the expected output would be
+id string odGf0DZuUR JU9910 jemvgDUw6T UJ991 YAmabwCWla JU990 When you look at the results closely, you will identify the changes needed to change the input string to match the derived strings:</description>
+    </item>
+    
+    <item>
+      <title>Randomness generation</title>
+      <link>https://johnhorsema.github.io/post/randomness-generation/</link>
+      <pubDate>Wed, 03 Feb 2016 20:46:25 +0000</pubDate>
+      
+      <guid>https://johnhorsema.github.io/post/randomness-generation/</guid>
+      <description>While working on a prototype of a web app, I needed to generate random boolean (true-or-false) values.
+At first, I tried this:
+var x = Math.random()&amp;gt;0.5; Get this into a 2D array:
+var array = []; var 2DArray = []; for(var i=0; i&amp;lt;10; i++) { array.push(Math.random()&amp;gt;0.5); } for(var i=0; i&amp;lt;10; i++) { 2Darray.push(array); array[i] = Math.random()&amp;gt;0.5; } The above ended up in 10 identical subarrays in the 2D array. Not what I wanted.</description>
+    </item>
+    
+  </channel>
+</rss>
